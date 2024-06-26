@@ -6,6 +6,7 @@ const promoCode = ({ background, id, classs }) => {
       style={{ backgroundImage: `url(${background})` }}
       className={`    
         bg-[length:100%_auto] 
+        ml-[150px]
         my-32
         h-[482px]
         py-40
@@ -15,6 +16,7 @@ const promoCode = ({ background, id, classs }) => {
         flex
         justify-center
         items-center
+        
         `}
       id={id}
     >

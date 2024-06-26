@@ -1,11 +1,12 @@
 import React from "react";
 
-const Promotions = ({ background, id, classs }) => {
+const ConnectWithUs = ({ background, id, classs }) => {
   return (
     <div
       style={{ backgroundImage: `url(${background})` }}
       className="    
         bg-[length:100%_auto] 
+        ml-[150px]
         h-[400px]
         text-white
         bg-no-repeat 
@@ -30,4 +31,4 @@ const Promotions = ({ background, id, classs }) => {
   );
 };
 
-export default Promotions;
+export default ConnectWithUs;

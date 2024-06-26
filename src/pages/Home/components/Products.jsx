@@ -4,7 +4,7 @@ import { PRODUCTS, LeftDouble, RightDouble, Leaf  } from "../../../CONSTANTS";
 const Products = ({ background, id, classs }) => {
 
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className="relative" id={id}>
+    <div style={{ backgroundImage: `url(${background})` }} className="relative ml-[150px]" id={id}>
       <div className="relative flex items-center justify-center overflow-hidden">
         <div className="relative w-full h-36 overflow-hidden">
           <Leaf className="absolute -top-28 left-20" />

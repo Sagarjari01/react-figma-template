@@ -2,7 +2,7 @@ import React from "react";
 import { FOOTER, SignH } from "../CONSTANTS";
 const Footer = () => {
   return (
-    <div className="flex justify-around pl-28 bg-black  flex-col relative">
+    <div className="flex justify-around pl-28 bg-black  flex-col relative pb-48 overflow-hidden">
       <div className="flex justify-around py-16 border-b-8 border-orange-300 ">
         {FOOTER.map((elem) => {
           const { title, description, Logo } = elem;
@@ -20,10 +20,9 @@ const Footer = () => {
         })}
       </div>
 
-      <div className="flex justify-center items-center mt-auto mb-0">
-        <SignH className=" " />
+      <div className="absolute left-1/2 bottom-[25%] transform -translate-x-1/2 translate-y-1/2 w-[448px]">
+        <SignH className="h-full w-full" />
       </div>
-
     </div>
   );
 };
